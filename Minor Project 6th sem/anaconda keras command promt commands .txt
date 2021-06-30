@@ -1,0 +1,654 @@
+
+(base) C:\Users\KIIT>conda create --name new_env
+Collecting package metadata (current_repodata.json): done
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.9.2
+  latest version: 4.10.1
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+## Package Plan ##
+
+  environment location: C:\Users\KIIT\anaconda3\envs\new_env
+
+
+
+Proceed ([y]/n)? y
+
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+#
+# To activate this environment, use
+#
+#     $ conda activate new_env
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+
+(base) C:\Users\KIIT>activate new_env
+
+(new_env) C:\Users\KIIT>install - anaconda keras
+'install' is not recognized as an internal or external command,
+operable program or batch file.
+
+(new_env) C:\Users\KIIT>install -c anaconda keras
+'install' is not recognized as an internal or external command,
+operable program or batch file.
+
+(new_env) C:\Users\KIIT>install -c anaconda keras
+'install' is not recognized as an internal or external command,
+operable program or batch file.
+
+(new_env) C:\Users\KIIT>install -c anaconda keras
+'install' is not recognized as an internal or external command,
+operable program or batch file.
+
+(new_env) C:\Users\KIIT>conda install -c anaconda keras
+Collecting package metadata (current_repodata.json): done
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.9.2
+  latest version: 4.10.1
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+## Package Plan ##
+
+  environment location: C:\Users\KIIT\anaconda3\envs\new_env
+
+  added / updated specs:
+    - keras
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    _tflow_select-2.3.0        |              mkl           3 KB  anaconda
+    absl-py-0.10.0             |           py38_0         170 KB  anaconda
+    aiohttp-3.6.3              |   py38he774522_0         597 KB  anaconda
+    astunparse-1.6.3           |             py_0          17 KB  anaconda
+    async-timeout-3.0.1        |           py38_0          12 KB  anaconda
+    attrs-20.2.0               |             py_0          41 KB  anaconda
+    blas-1.0                   |              mkl           6 KB  anaconda
+    blinker-1.4                |           py38_0          22 KB  anaconda
+    brotlipy-0.7.0             |py38he774522_1000         370 KB  anaconda
+    ca-certificates-2020.10.14 |                0         159 KB  anaconda
+    cachetools-4.1.1           |             py_0          12 KB  anaconda
+    certifi-2020.6.20          |           py38_0         160 KB  anaconda
+    cffi-1.14.3                |   py38h7a1dbc1_0         228 KB  anaconda
+    chardet-3.0.4              |        py38_1003         190 KB  anaconda
+    click-7.1.2                |             py_0          67 KB  anaconda
+    cryptography-3.1.1         |   py38h7a1dbc1_0         588 KB  anaconda
+    gast-0.4.0                 |             py_0          14 KB  anaconda
+    google-auth-1.22.1         |             py_0          62 KB  anaconda
+    google-auth-oauthlib-0.4.1 |             py_2          21 KB  anaconda
+    google-pasta-0.2.0         |             py_0          44 KB  anaconda
+    grpcio-1.31.0              |   py38he7da953_0         1.7 MB  anaconda
+    h5py-2.10.0                |   py38h5e291fa_0         1.0 MB  anaconda
+    hdf5-1.10.4                |       h7ebc959_0        19.2 MB  anaconda
+    icc_rt-2019.0.0            |       h0cc432a_1         9.4 MB  anaconda
+    idna-2.10                  |             py_0          56 KB  anaconda
+    importlib-metadata-2.0.0   |             py_1          35 KB  anaconda
+    intel-openmp-2020.2        |              254         2.0 MB  anaconda
+    keras-2.4.3                |                0          12 KB  anaconda
+    keras-applications-1.0.8   |             py_1          30 KB  anaconda
+    keras-base-2.4.3           |             py_0          36 KB  anaconda
+    keras-preprocessing-1.1.0  |             py_1          36 KB  anaconda
+    libprotobuf-3.13.0.1       |       h200bbdf_0         2.3 MB  anaconda
+    markdown-3.3.2             |           py38_0         163 KB  anaconda
+    mkl-2020.2                 |              256       170.7 MB  anaconda
+    mkl-service-2.3.0          |   py38h196d8e1_0          47 KB
+    mkl_fft-1.3.0              |   py38h46781fe_0         134 KB
+    mkl_random-1.1.1           |   py38h47e9c7a_0         288 KB  anaconda
+    multidict-4.7.6            |   py38he774522_1          62 KB  anaconda
+    oauthlib-3.1.0             |             py_0          88 KB  anaconda
+    openssl-1.1.1h             |       he774522_0         5.8 MB  anaconda
+    opt_einsum-3.1.0           |             py_0          54 KB  anaconda
+    pip-20.2.4                 |           py38_0         2.0 MB  anaconda
+    protobuf-3.13.0.1          |   py38ha925a31_1         596 KB  anaconda
+    pyasn1-0.4.8               |             py_0          58 KB  anaconda
+    pyasn1-modules-0.2.8       |             py_0          67 KB  anaconda
+    pycparser-2.20             |             py_2          94 KB  anaconda
+    pyjwt-1.7.1                |           py38_0          50 KB  anaconda
+    pyopenssl-19.1.0           |             py_1          47 KB  anaconda
+    pyreadline-2.1             |           py38_1         143 KB  anaconda
+    pysocks-1.7.1              |           py38_0          28 KB  anaconda
+    python-3.8.5               |       h5fd99cc_1        18.7 MB  anaconda
+    pyyaml-5.3.1               |   py38he774522_0         168 KB  anaconda
+    requests-2.24.0            |             py_0          54 KB  anaconda
+    requests-oauthlib-1.3.0    |             py_0          22 KB  anaconda
+    rsa-4.6                    |             py_0          26 KB  anaconda
+    scipy-1.6.2                |   py38h14eb087_0        13.0 MB
+    setuptools-50.3.0          |   py38h9490d1a_1         924 KB  anaconda
+    six-1.15.0                 |             py_0          13 KB  anaconda
+    sqlite-3.33.0              |       h2a8f88b_0         1.3 MB  anaconda
+    tensorboard-2.4.0          |     pyhc547734_0         8.8 MB
+    tensorboard-plugin-wit-1.6.0|             py_0         663 KB  anaconda
+    tensorflow-2.3.0           |mkl_py38h37f7ee5_0           6 KB
+    tensorflow-base-2.3.0      |eigen_py38h75a453f_0        49.5 MB
+    tensorflow-estimator-2.3.0 |     pyheb71bc4_0         294 KB  anaconda
+    termcolor-1.1.0            |           py38_1           8 KB  anaconda
+    urllib3-1.25.11            |             py_0          93 KB  anaconda
+    vs2015_runtime-14.27.29016 |       h5e58377_2        1007 KB
+    werkzeug-1.0.1             |             py_0         243 KB  anaconda
+    wheel-0.35.1               |             py_0          36 KB  anaconda
+    win_inet_pton-1.1.0        |           py38_0           8 KB  anaconda
+    wincertstore-0.2           |           py38_0          15 KB  anaconda
+    wrapt-1.12.1               |   py38he774522_1          49 KB  anaconda
+    yaml-0.1.7                 |   vc14h4cb57cf_1         103 KB  anaconda
+    yarl-1.6.2                 |   py38he774522_0         138 KB  anaconda
+    zipp-3.3.1                 |             py_0          11 KB  anaconda
+    zlib-1.2.11                |   vc14h1cdd9ab_1         117 KB  anaconda
+    ------------------------------------------------------------
+                                           Total:       314.0 MB
+
+The following NEW packages will be INSTALLED:
+
+  _tflow_select      anaconda/win-64::_tflow_select-2.3.0-mkl
+  absl-py            anaconda/win-64::absl-py-0.10.0-py38_0
+  aiohttp            anaconda/win-64::aiohttp-3.6.3-py38he774522_0
+  astunparse         anaconda/noarch::astunparse-1.6.3-py_0
+  async-timeout      anaconda/win-64::async-timeout-3.0.1-py38_0
+  attrs              anaconda/noarch::attrs-20.2.0-py_0
+  blas               anaconda/win-64::blas-1.0-mkl
+  blinker            anaconda/win-64::blinker-1.4-py38_0
+  brotlipy           anaconda/win-64::brotlipy-0.7.0-py38he774522_1000
+  ca-certificates    anaconda/win-64::ca-certificates-2020.10.14-0
+  cachetools         anaconda/noarch::cachetools-4.1.1-py_0
+  certifi            anaconda/win-64::certifi-2020.6.20-py38_0
+  cffi               anaconda/win-64::cffi-1.14.3-py38h7a1dbc1_0
+  chardet            anaconda/win-64::chardet-3.0.4-py38_1003
+  click              anaconda/noarch::click-7.1.2-py_0
+  cryptography       anaconda/win-64::cryptography-3.1.1-py38h7a1dbc1_0
+  gast               anaconda/noarch::gast-0.4.0-py_0
+  google-auth        anaconda/noarch::google-auth-1.22.1-py_0
+  google-auth-oauth~ anaconda/noarch::google-auth-oauthlib-0.4.1-py_2
+  google-pasta       anaconda/noarch::google-pasta-0.2.0-py_0
+  grpcio             anaconda/win-64::grpcio-1.31.0-py38he7da953_0
+  h5py               anaconda/win-64::h5py-2.10.0-py38h5e291fa_0
+  hdf5               anaconda/win-64::hdf5-1.10.4-h7ebc959_0
+  icc_rt             anaconda/win-64::icc_rt-2019.0.0-h0cc432a_1
+  idna               anaconda/noarch::idna-2.10-py_0
+  importlib-metadata anaconda/noarch::importlib-metadata-2.0.0-py_1
+  intel-openmp       anaconda/win-64::intel-openmp-2020.2-254
+  keras              anaconda/noarch::keras-2.4.3-0
+  keras-applications anaconda/noarch::keras-applications-1.0.8-py_1
+  keras-base         anaconda/noarch::keras-base-2.4.3-py_0
+  keras-preprocessi~ anaconda/noarch::keras-preprocessing-1.1.0-py_1
+  libprotobuf        anaconda/win-64::libprotobuf-3.13.0.1-h200bbdf_0
+  markdown           anaconda/win-64::markdown-3.3.2-py38_0
+  mkl                anaconda/win-64::mkl-2020.2-256
+  mkl-service        pkgs/main/win-64::mkl-service-2.3.0-py38h196d8e1_0
+  mkl_fft            pkgs/main/win-64::mkl_fft-1.3.0-py38h46781fe_0
+  mkl_random         anaconda/win-64::mkl_random-1.1.1-py38h47e9c7a_0
+  multidict          anaconda/win-64::multidict-4.7.6-py38he774522_1
+  numpy              pkgs/main/win-64::numpy-1.19.2-py38hadc3359_0
+  numpy-base         pkgs/main/win-64::numpy-base-1.19.2-py38ha3acd2a_0
+  oauthlib           anaconda/noarch::oauthlib-3.1.0-py_0
+  openssl            anaconda/win-64::openssl-1.1.1h-he774522_0
+  opt_einsum         anaconda/noarch::opt_einsum-3.1.0-py_0
+  pip                anaconda/win-64::pip-20.2.4-py38_0
+  protobuf           anaconda/win-64::protobuf-3.13.0.1-py38ha925a31_1
+  pyasn1             anaconda/noarch::pyasn1-0.4.8-py_0
+  pyasn1-modules     anaconda/noarch::pyasn1-modules-0.2.8-py_0
+  pycparser          anaconda/noarch::pycparser-2.20-py_2
+  pyjwt              anaconda/win-64::pyjwt-1.7.1-py38_0
+  pyopenssl          anaconda/noarch::pyopenssl-19.1.0-py_1
+  pyreadline         anaconda/win-64::pyreadline-2.1-py38_1
+  pysocks            anaconda/win-64::pysocks-1.7.1-py38_0
+  python             anaconda/win-64::python-3.8.5-h5fd99cc_1
+  pyyaml             anaconda/win-64::pyyaml-5.3.1-py38he774522_0
+  requests           anaconda/noarch::requests-2.24.0-py_0
+  requests-oauthlib  anaconda/noarch::requests-oauthlib-1.3.0-py_0
+  rsa                anaconda/noarch::rsa-4.6-py_0
+  scipy              pkgs/main/win-64::scipy-1.6.2-py38h14eb087_0
+  setuptools         anaconda/win-64::setuptools-50.3.0-py38h9490d1a_1
+  six                anaconda/noarch::six-1.15.0-py_0
+  sqlite             anaconda/win-64::sqlite-3.33.0-h2a8f88b_0
+  tensorboard        pkgs/main/noarch::tensorboard-2.4.0-pyhc547734_0
+  tensorboard-plugi~ anaconda/noarch::tensorboard-plugin-wit-1.6.0-py_0
+  tensorflow         pkgs/main/win-64::tensorflow-2.3.0-mkl_py38h37f7ee5_0
+  tensorflow-base    pkgs/main/win-64::tensorflow-base-2.3.0-eigen_py38h75a453f_0
+  tensorflow-estima~ anaconda/noarch::tensorflow-estimator-2.3.0-pyheb71bc4_0
+  termcolor          anaconda/win-64::termcolor-1.1.0-py38_1
+  urllib3            anaconda/noarch::urllib3-1.25.11-py_0
+  vc                 pkgs/main/win-64::vc-14.2-h21ff451_1
+  vs2015_runtime     pkgs/main/win-64::vs2015_runtime-14.27.29016-h5e58377_2
+  werkzeug           anaconda/noarch::werkzeug-1.0.1-py_0
+  wheel              anaconda/noarch::wheel-0.35.1-py_0
+  win_inet_pton      anaconda/win-64::win_inet_pton-1.1.0-py38_0
+  wincertstore       anaconda/win-64::wincertstore-0.2-py38_0
+  wrapt              anaconda/win-64::wrapt-1.12.1-py38he774522_1
+  yaml               anaconda/win-64::yaml-0.1.7-vc14h4cb57cf_1
+  yarl               anaconda/win-64::yarl-1.6.2-py38he774522_0
+  zipp               anaconda/noarch::zipp-3.3.1-py_0
+  zlib               anaconda/win-64::zlib-1.2.11-vc14h1cdd9ab_1
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+opt_einsum-3.1.0     | 54 KB     | ######################################## | 100%
+google-auth-oauthlib | 21 KB     | ######################################## | 100%
+vs2015_runtime-14.27 | 1007 KB   | ######################################## | 100%
+python-3.8.5         | 18.7 MB   | ######################################## | 100%
+keras-applications-1 | 30 KB     | ######################################## | 100%
+yarl-1.6.2           | 138 KB    | ######################################## | 100%
+astunparse-1.6.3     | 17 KB     | ######################################## | 100%
+requests-2.24.0      | 54 KB     | ######################################## | 100%
+wrapt-1.12.1         | 49 KB     | ######################################## | 100%
+six-1.15.0           | 13 KB     | ######################################## | 100%
+tensorflow-2.3.0     | 6 KB      | ######################################## | 100%
+pyreadline-2.1       | 143 KB    | ######################################## | 100%
+urllib3-1.25.11      | 93 KB     | ######################################## | 100%
+h5py-2.10.0          | 1.0 MB    | ######################################## | 100%
+idna-2.10            | 56 KB     | ######################################## | 100%
+wheel-0.35.1         | 36 KB     | ######################################## | 100%
+sqlite-3.33.0        | 1.3 MB    | ######################################## | 100%
+aiohttp-3.6.3        | 597 KB    | ######################################## | 100%
+gast-0.4.0           | 14 KB     | ######################################## | 100%
+pyyaml-5.3.1         | 168 KB    | ######################################## | 100%
+zlib-1.2.11          | 117 KB    | ######################################## | 100%
+wincertstore-0.2     | 15 KB     | ######################################## | 100%
+protobuf-3.13.0.1    | 596 KB    | ######################################## | 100%
+absl-py-0.10.0       | 170 KB    | ######################################## | 100%
+tensorflow-estimator | 294 KB    | ######################################## | 100%
+termcolor-1.1.0      | 8 KB      | ######################################## | 100%
+keras-preprocessing- | 36 KB     | ######################################## | 100%
+mkl-service-2.3.0    | 47 KB     | ######################################## | 100%
+cachetools-4.1.1     | 12 KB     | ######################################## | 100%
+pip-20.2.4           | 2.0 MB    | ######################################## | 100%
+mkl_random-1.1.1     | 288 KB    | ######################################## | 100%
+hdf5-1.10.4          | 19.2 MB   | ######################################## | 100%
+chardet-3.0.4        | 190 KB    | ################################################################################################################################ | 100%
+zipp-3.3.1           | 11 KB     | ################################################################################################################################ | 100%
+grpcio-1.31.0        | 1.7 MB    | ################################################################################################################################ | 100%
+google-auth-1.22.1   | 62 KB     | ################################################################################################################################ | 100%
+intel-openmp-2020.2  | 2.0 MB    | ################################################################################################################################ | 100%
+pyasn1-modules-0.2.8 | 67 KB     | ################################################################################################################################ | 100%
+async-timeout-3.0.1  | 12 KB     | ################################################################################################################################ | 100%
+keras-2.4.3          | 12 KB     | ################################################################################################################################ | 100%
+rsa-4.6              | 26 KB     | ################################################################################################################################ | 100%
+cffi-1.14.3          | 228 KB    | ################################################################################################################################ | 100%
+tensorboard-2.4.0    | 8.8 MB    | ################################################################################################################################ | 100%
+brotlipy-0.7.0       | 370 KB    | ################################################################################################################################ | 100%
+win_inet_pton-1.1.0  | 8 KB      | ################################################################################################################################ | 100%
+certifi-2020.6.20    | 160 KB    | ################################################################################################################################ | 100%
+scipy-1.6.2          | 13.0 MB   | ################################################################################################################################ | 100%
+importlib-metadata-2 | 35 KB     | ################################################################################################################################ | 100%
+mkl_fft-1.3.0        | 134 KB    | ################################################################################################################################ | 100%
+multidict-4.7.6      | 62 KB     | ################################################################################################################################ | 100%
+setuptools-50.3.0    | 924 KB    | ################################################################################################################################ | 100%
+blas-1.0             | 6 KB      | ################################################################################################################################ | 100%
+pycparser-2.20       | 94 KB     | ################################################################################################################################ | 100%
+_tflow_select-2.3.0  | 3 KB      | ################################################################################################################################ | 100%
+click-7.1.2          | 67 KB     | ################################################################################################################################ | 100%
+keras-base-2.4.3     | 36 KB     | ################################################################################################################################ | 100%
+cryptography-3.1.1   | 588 KB    | ################################################################################################################################ | 100%
+ca-certificates-2020 | 159 KB    | ################################################################################################################################ | 100%
+yaml-0.1.7           | 103 KB    | ################################################################################################################################ | 100%
+icc_rt-2019.0.0      | 9.4 MB    | ################################################################################################################################ | 100%
+pyjwt-1.7.1          | 50 KB     | ################################################################################################################################ | 100%
+libprotobuf-3.13.0.1 | 2.3 MB    | ################################################################################################################################ | 100%
+attrs-20.2.0         | 41 KB     | ################################################################################################################################ | 100%
+pysocks-1.7.1        | 28 KB     | ################################################################################################################################ | 100%
+tensorflow-base-2.3. | 49.5 MB   | ################################################################################################################################ | 100%
+pyopenssl-19.1.0     | 47 KB     | ################################################################################################################################ | 100%
+tensorboard-plugin-w | 663 KB    | ################################################################################################################################ | 100%
+blinker-1.4          | 22 KB     | ################################################################################################################################ | 100%
+markdown-3.3.2       | 163 KB    | ################################################################################################################################ | 100%
+oauthlib-3.1.0       | 88 KB     | ################################################################################################################################ | 100%
+google-pasta-0.2.0   | 44 KB     | ################################################################################################################################ | 100%
+mkl-2020.2           | 170.7 MB  | ################################################################################################################################ | 100%
+werkzeug-1.0.1       | 243 KB    | ################################################################################################################################ | 100%
+openssl-1.1.1h       | 5.8 MB    | ################################################################################################################################ | 100%
+pyasn1-0.4.8         | 58 KB     | ################################################################################################################################ | 100%
+requests-oauthlib-1. | 22 KB     | ################################################################################################################################ | 100%
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+
+(new_env) C:\Users\KIIT>conda install jupyter
+Collecting package metadata (current_repodata.json): done
+Solving environment: failed with initial frozen solve. Retrying with flexible solve.
+Solving environment: failed with repodata from current_repodata.json, will retry with next repodata source.
+Collecting package metadata (repodata.json): done
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.9.2
+  latest version: 4.10.1
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+## Package Plan ##
+
+  environment location: C:\Users\KIIT\anaconda3\envs\new_env
+
+  added / updated specs:
+    - jupyter
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    argon2-cffi-20.1.0         |   py38h2bbff1b_1          49 KB
+    async_generator-1.10       |     pyhd3eb1b0_0          23 KB
+    backcall-0.2.0             |     pyhd3eb1b0_0          13 KB
+    bleach-3.3.0               |     pyhd3eb1b0_0         113 KB
+    ca-certificates-2021.4.13  |       haa95532_1         115 KB
+    certifi-2020.12.5          |   py38haa95532_0         141 KB
+    colorama-0.4.4             |     pyhd3eb1b0_0          21 KB
+    decorator-5.0.6            |     pyhd3eb1b0_0          12 KB
+    defusedxml-0.7.1           |     pyhd3eb1b0_0          23 KB
+    ipython-7.22.0             |   py38hd4e2768_0         998 KB
+    ipython_genutils-0.2.0     |     pyhd3eb1b0_1          27 KB
+    ipywidgets-7.6.3           |     pyhd3eb1b0_1         105 KB
+    jedi-0.17.0                |           py38_0         780 KB
+    jinja2-2.11.3              |     pyhd3eb1b0_0         101 KB
+    jupyter_client-6.1.12      |     pyhd3eb1b0_0          88 KB
+    jupyter_console-6.4.0      |     pyhd3eb1b0_0          23 KB
+    jupyter_core-4.7.1         |   py38haa95532_0          85 KB
+    jupyterlab_widgets-1.0.0   |     pyhd3eb1b0_1         109 KB
+    nbclient-0.5.3             |     pyhd3eb1b0_0          62 KB
+    nbformat-5.1.3             |     pyhd3eb1b0_0          44 KB
+    nest-asyncio-1.5.1         |     pyhd3eb1b0_0          10 KB
+    notebook-6.3.0             |   py38haa95532_0         4.4 MB
+    openssl-1.1.1k             |       h2bbff1b_0         4.8 MB
+    packaging-20.9             |     pyhd3eb1b0_0          37 KB
+    pandoc-2.12                |       haa95532_0        13.2 MB
+    parso-0.8.2                |     pyhd3eb1b0_0          69 KB
+    pickleshare-0.7.5          |  pyhd3eb1b0_1003          13 KB
+    prometheus_client-0.10.1   |     pyhd3eb1b0_0          46 KB
+    prompt-toolkit-3.0.17      |     pyh06a4308_0         256 KB
+    prompt_toolkit-3.0.17      |       hd3eb1b0_0          12 KB
+    pygments-2.8.1             |     pyhd3eb1b0_0         703 KB
+    pyparsing-2.4.7            |     pyhd3eb1b0_0          59 KB
+    python-dateutil-2.8.1      |     pyhd3eb1b0_0         221 KB
+    pyzmq-20.0.0               |   py38hd77b12b_1         405 KB
+    qtconsole-5.0.3            |     pyhd3eb1b0_0          97 KB
+    send2trash-1.5.0           |     pyhd3eb1b0_1          14 KB
+    terminado-0.9.4            |   py38haa95532_0          26 KB
+    testpath-0.4.4             |     pyhd3eb1b0_0          85 KB
+    tornado-6.1                |   py38h2bbff1b_0         612 KB
+    traitlets-5.0.5            |     pyhd3eb1b0_0          81 KB
+    zeromq-4.3.3               |       ha925a31_3         4.2 MB
+    ------------------------------------------------------------
+                                           Total:        32.2 MB
+
+The following NEW packages will be INSTALLED:
+
+  argon2-cffi        pkgs/main/win-64::argon2-cffi-20.1.0-py38h2bbff1b_1
+  async_generator    pkgs/main/noarch::async_generator-1.10-pyhd3eb1b0_0
+  backcall           pkgs/main/noarch::backcall-0.2.0-pyhd3eb1b0_0
+  bleach             pkgs/main/noarch::bleach-3.3.0-pyhd3eb1b0_0
+  colorama           pkgs/main/noarch::colorama-0.4.4-pyhd3eb1b0_0
+  decorator          pkgs/main/noarch::decorator-5.0.6-pyhd3eb1b0_0
+  defusedxml         pkgs/main/noarch::defusedxml-0.7.1-pyhd3eb1b0_0
+  entrypoints        pkgs/main/win-64::entrypoints-0.3-py38_0
+  icu                pkgs/main/win-64::icu-58.2-ha925a31_3
+  importlib_metadata pkgs/main/noarch::importlib_metadata-2.0.0-1
+  ipykernel          pkgs/main/win-64::ipykernel-5.3.4-py38h5ca1d4c_0
+  ipython            pkgs/main/win-64::ipython-7.22.0-py38hd4e2768_0
+  ipython_genutils   pkgs/main/noarch::ipython_genutils-0.2.0-pyhd3eb1b0_1
+  ipywidgets         pkgs/main/noarch::ipywidgets-7.6.3-pyhd3eb1b0_1
+  jedi               pkgs/main/win-64::jedi-0.17.0-py38_0
+  jinja2             pkgs/main/noarch::jinja2-2.11.3-pyhd3eb1b0_0
+  jpeg               pkgs/main/win-64::jpeg-9b-hb83a4c4_2
+  jsonschema         pkgs/main/noarch::jsonschema-3.2.0-py_2
+  jupyter            pkgs/main/win-64::jupyter-1.0.0-py38_7
+  jupyter_client     pkgs/main/noarch::jupyter_client-6.1.12-pyhd3eb1b0_0
+  jupyter_console    pkgs/main/noarch::jupyter_console-6.4.0-pyhd3eb1b0_0
+  jupyter_core       pkgs/main/win-64::jupyter_core-4.7.1-py38haa95532_0
+  jupyterlab_pygmen~ pkgs/main/noarch::jupyterlab_pygments-0.1.2-py_0
+  jupyterlab_widgets pkgs/main/noarch::jupyterlab_widgets-1.0.0-pyhd3eb1b0_1
+  libpng             pkgs/main/win-64::libpng-1.6.37-h2a8f88b_0
+  libsodium          pkgs/main/win-64::libsodium-1.0.18-h62dcd97_0
+  m2w64-gcc-libgfor~ pkgs/msys2/win-64::m2w64-gcc-libgfortran-5.3.0-6
+  m2w64-gcc-libs     pkgs/msys2/win-64::m2w64-gcc-libs-5.3.0-7
+  m2w64-gcc-libs-co~ pkgs/msys2/win-64::m2w64-gcc-libs-core-5.3.0-7
+  m2w64-gmp          pkgs/msys2/win-64::m2w64-gmp-6.1.0-2
+  m2w64-libwinpthre~ pkgs/msys2/win-64::m2w64-libwinpthread-git-5.0.0.4634.697f757-2
+  markupsafe         pkgs/main/win-64::markupsafe-1.1.1-py38he774522_0
+  mistune            pkgs/main/win-64::mistune-0.8.4-py38he774522_1000
+  msys2-conda-epoch  pkgs/msys2/win-64::msys2-conda-epoch-20160418-1
+  nbclient           pkgs/main/noarch::nbclient-0.5.3-pyhd3eb1b0_0
+  nbconvert          pkgs/main/win-64::nbconvert-6.0.7-py38_0
+  nbformat           pkgs/main/noarch::nbformat-5.1.3-pyhd3eb1b0_0
+  nest-asyncio       pkgs/main/noarch::nest-asyncio-1.5.1-pyhd3eb1b0_0
+  notebook           pkgs/main/win-64::notebook-6.3.0-py38haa95532_0
+  packaging          pkgs/main/noarch::packaging-20.9-pyhd3eb1b0_0
+  pandoc             pkgs/main/win-64::pandoc-2.12-haa95532_0
+  pandocfilters      pkgs/main/win-64::pandocfilters-1.4.3-py38haa95532_1
+  parso              pkgs/main/noarch::parso-0.8.2-pyhd3eb1b0_0
+  pickleshare        pkgs/main/noarch::pickleshare-0.7.5-pyhd3eb1b0_1003
+  prometheus_client  pkgs/main/noarch::prometheus_client-0.10.1-pyhd3eb1b0_0
+  prompt-toolkit     pkgs/main/noarch::prompt-toolkit-3.0.17-pyh06a4308_0
+  prompt_toolkit     pkgs/main/noarch::prompt_toolkit-3.0.17-hd3eb1b0_0
+  pygments           pkgs/main/noarch::pygments-2.8.1-pyhd3eb1b0_0
+  pyparsing          pkgs/main/noarch::pyparsing-2.4.7-pyhd3eb1b0_0
+  pyqt               pkgs/main/win-64::pyqt-5.9.2-py38ha925a31_4
+  pyrsistent         pkgs/main/win-64::pyrsistent-0.17.3-py38he774522_0
+  python-dateutil    pkgs/main/noarch::python-dateutil-2.8.1-pyhd3eb1b0_0
+  pywin32            pkgs/main/win-64::pywin32-227-py38he774522_1
+  pywinpty           pkgs/main/win-64::pywinpty-0.5.7-py38_0
+  pyzmq              pkgs/main/win-64::pyzmq-20.0.0-py38hd77b12b_1
+  qt                 pkgs/main/win-64::qt-5.9.7-vc14h73c81de_0
+  qtconsole          pkgs/main/noarch::qtconsole-5.0.3-pyhd3eb1b0_0
+  qtpy               pkgs/main/noarch::qtpy-1.9.0-py_0
+  send2trash         pkgs/main/noarch::send2trash-1.5.0-pyhd3eb1b0_1
+  sip                pkgs/main/win-64::sip-4.19.13-py38ha925a31_0
+  terminado          pkgs/main/win-64::terminado-0.9.4-py38haa95532_0
+  testpath           pkgs/main/noarch::testpath-0.4.4-pyhd3eb1b0_0
+  tornado            pkgs/main/win-64::tornado-6.1-py38h2bbff1b_0
+  traitlets          pkgs/main/noarch::traitlets-5.0.5-pyhd3eb1b0_0
+  wcwidth            pkgs/main/noarch::wcwidth-0.2.5-py_0
+  webencodings       pkgs/main/win-64::webencodings-0.5.1-py38_1
+  widgetsnbextension pkgs/main/win-64::widgetsnbextension-3.5.1-py38_0
+  winpty             pkgs/main/win-64::winpty-0.4.3-4
+  zeromq             pkgs/main/win-64::zeromq-4.3.3-ha925a31_3
+
+The following packages will be UPDATED:
+
+  ca-certificates    anaconda::ca-certificates-2020.10.14-0 --> pkgs/main::ca-certificates-2021.4.13-haa95532_1
+  certifi                anaconda::certifi-2020.6.20-py38_0 --> pkgs/main::certifi-2020.12.5-py38haa95532_0
+  openssl               anaconda::openssl-1.1.1h-he774522_0 --> pkgs/main::openssl-1.1.1k-h2bbff1b_0
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+jupyter_core-4.7.1   | 85 KB     | ######################################## | 100%
+ca-certificates-2021 | 115 KB    | ######################################## | 100%
+prompt-toolkit-3.0.1 | 256 KB    | ######################################## | 100%
+jupyter_console-6.4. | 23 KB     | ######################################## | 100%
+pandoc-2.12          | 13.2 MB   | ######################################## | 100%
+python-dateutil-2.8. | 221 KB    | ######################################## | 100%
+nbclient-0.5.3       | 62 KB     | ######################################## | 100%
+prometheus_client-0. | 46 KB     | ######################################## | 100%
+pickleshare-0.7.5    | 13 KB     | ######################################## | 100%
+colorama-0.4.4       | 21 KB     | ######################################## | 100%
+parso-0.8.2          | 69 KB     | ######################################## | 100%
+nest-asyncio-1.5.1   | 10 KB     | ######################################## | 100%
+zeromq-4.3.3         | 4.2 MB    | ######################################## | 100%
+terminado-0.9.4      | 26 KB     | ######################################## | 100%
+jinja2-2.11.3        | 101 KB    | ######################################## | 100%
+nbformat-5.1.3       | 44 KB     | ######################################## | 100%
+jupyterlab_widgets-1 | 109 KB    | ######################################## | 100%
+jupyter_client-6.1.1 | 88 KB     | ######################################## | 100%
+notebook-6.3.0       | 4.4 MB    | ######################################## | 100%
+pyparsing-2.4.7      | 59 KB     | ######################################## | 100%
+ipywidgets-7.6.3     | 105 KB    | ######################################## | 100%
+jedi-0.17.0          | 780 KB    | ######################################## | 100%
+pyzmq-20.0.0         | 405 KB    | ######################################## | 100%
+packaging-20.9       | 37 KB     | ######################################## | 100%
+ipython-7.22.0       | 998 KB    | ######################################## | 100%
+defusedxml-0.7.1     | 23 KB     | ######################################## | 100%
+qtconsole-5.0.3      | 97 KB     | ######################################## | 100%
+decorator-5.0.6      | 12 KB     | ######################################## | 100%
+argon2-cffi-20.1.0   | 49 KB     | ######################################## | 100%
+pygments-2.8.1       | 703 KB    | ######################################## | 100%
+backcall-0.2.0       | 13 KB     | ################################################################################################################################ | 100%
+ipython_genutils-0.2 | 27 KB     | ################################################################################################################################ | 100%
+async_generator-1.10 | 23 KB     | ################################################################################################################################ | 100%
+tornado-6.1          | 612 KB    | ################################################################################################################################ | 100%
+traitlets-5.0.5      | 81 KB     | ################################################################################################################################ | 100%
+testpath-0.4.4       | 85 KB     | ################################################################################################################################ | 100%
+prompt_toolkit-3.0.1 | 12 KB     | ################################################################################################################################ | 100%
+certifi-2020.12.5    | 141 KB    | ################################################################################################################################ | 100%
+openssl-1.1.1k       | 4.8 MB    | ################################################################################################################################ | 100%
+send2trash-1.5.0     | 14 KB     | ################################################################################################################################ | 100%
+bleach-3.3.0         | 113 KB    | ################################################################################################################################ | 100%
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: - DEBUG menuinst_win32:__init__(198): Menu: name: 'Anaconda${PY_VER} ${PLATFORM}', prefix: 'C:\Users\KIIT\anaconda3\envs\new_env', env_name: 'new_env', mode: 'user', used_mode: 'user'
+DEBUG menuinst_win32:create(323): Shortcut cmd is C:\Users\KIIT\anaconda3\python.exe, args are ['C:\\Users\\KIIT\\anaconda3\\cwp.py', 'C:\\Users\\KIIT\\anaconda3\\envs\\new_env', 'C:\\Users\\KIIT\\anaconda3\\envs\\new_env\\python.exe', 'C:\\Users\\KIIT\\anaconda3\\envs\\new_env\\Scripts\\jupyter-notebook-script.py', '"%USERPROFILE%/"']
+done
+
+(new_env) C:\Users\KIIT>jupyter notebook
+[I 10:44:15.461 NotebookApp] The port 8888 is already in use, trying another port.
+[I 10:44:15.462 NotebookApp] The port 8889 is already in use, trying another port.
+[I 10:44:15.471 NotebookApp] Serving notebooks from local directory: C:\Users\KIIT
+[I 10:44:15.472 NotebookApp] Jupyter Notebook 6.3.0 is running at:
+[I 10:44:15.472 NotebookApp] http://localhost:8890/?token=2fc277af71b3a5fc571c9e8af6a6081e043a30d14e8f4863
+[I 10:44:15.473 NotebookApp]  or http://127.0.0.1:8890/?token=2fc277af71b3a5fc571c9e8af6a6081e043a30d14e8f4863
+[I 10:44:15.474 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 10:44:15.594 NotebookApp]
+
+    To access the notebook, open this file in a browser:
+        file:///C:/Users/KIIT/AppData/Roaming/jupyter/runtime/nbserver-15376-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8890/?token=2fc277af71b3a5fc571c9e8af6a6081e043a30d14e8f4863
+     or http://127.0.0.1:8890/?token=2fc277af71b3a5fc571c9e8af6a6081e043a30d14e8f4863
+[I 10:44:45.810 NotebookApp] Kernel started: 722ba4e7-fd42-4431-b5cd-b9dea079a3cb, name: python3
+[I 10:44:47.323 NotebookApp] Creating new notebook in /Desktop/6th sem/Minor Project 6th sem
+[I 10:44:49.275 NotebookApp] Kernel started: 8c0f1c33-53a9-49fd-baac-1c83186ee32f, name: python3
+[I 10:46:11.122 NotebookApp] Starting buffering for 8c0f1c33-53a9-49fd-baac-1c83186ee32f:7a0733147e064b398ac5854a595c1194
+[I 10:48:15.023 NotebookApp] Saving file at /Desktop/6th sem/Minor Project 6th sem/Untitled.ipynb
+[I 10:50:15.005 NotebookApp] Saving file at /Desktop/6th sem/Minor Project 6th sem/Untitled.ipynb
+[I 10:52:15.012 NotebookApp] Saving file at /Desktop/6th sem/Minor Project 6th sem/Untitled.ipynb
+[I 10:56:15.003 NotebookApp] Saving file at /Desktop/6th sem/Minor Project 6th sem/Untitled.ipynb
+[I 10:58:15.005 NotebookApp] Saving file at /Desktop/6th sem/Minor Project 6th sem/Untitled.ipynb
+[I 11:02:15.934 NotebookApp] Saving file at /Desktop/6th sem/Minor Project 6th sem/Untitled.ipynb
+ Volume in drive C is Windows
+ Volume Serial Number is 66E1-15EC
+
+ Directory of C:\Users\KIIT\Desktop\6th sem\Minor Project 6th sem
+
+20-04-2021  11:02    <DIR>          .
+20-04-2021  11:02    <DIR>          ..
+20-04-2021  10:41    <DIR>          .ipynb_checkpoints
+20-04-2021  09:19            23,207 AI-MAJOR-DEC-AI-12-B8.ipynb
+18-04-2021  12:56            32,751 AI-MINOR-DEC.ipynb
+18-04-2021  16:02        53,594,907 dataset-20210418T102952Z-001.zip
+20-04-2021  11:02             5,181 Untitled.ipynb
+               4 File(s)     53,656,046 bytes
+               3 Dir(s)  109,036,101,632 bytes free
+ Volume in drive C is Windows
+ Volume Serial Number is 66E1-15EC
+
+ Directory of C:\Users\KIIT\Desktop\6th sem\Minor Project 6th sem
+
+20-04-2021  11:02    <DIR>          .
+20-04-2021  11:02    <DIR>          ..
+20-04-2021  10:41    <DIR>          .ipynb_checkpoints
+20-04-2021  09:19            23,207 AI-MAJOR-DEC-AI-12-B8.ipynb
+18-04-2021  12:56            32,751 AI-MINOR-DEC.ipynb
+18-04-2021  16:02        53,594,907 dataset-20210418T102952Z-001.zip
+20-04-2021  11:02             5,181 Untitled.ipynb
+               4 File(s)     53,656,046 bytes
+               3 Dir(s)  109,036,093,440 bytes free
+[I 11:04:15.002 NotebookApp] Saving file at /Desktop/6th sem/Minor Project 6th sem/Untitled.ipynb
+[I 11:06:15.004 NotebookApp] Saving file at /Desktop/6th sem/Minor Project 6th sem/Untitled.ipynb
+[I 11:08:15.011 NotebookApp] Saving file at /Desktop/6th sem/Minor Project 6th sem/Untitled.ipynb
+[I 11:10:15.003 NotebookApp] Saving file at /Desktop/6th sem/Minor Project 6th sem/Untitled.ipynb
+[I 11:12:15.015 NotebookApp] Saving file at /Desktop/6th sem/Minor Project 6th sem/Untitled.ipynb
+[I 11:14:15.003 NotebookApp] Saving file at /Desktop/6th sem/Minor Project 6th sem/Untitled.ipynb
+[I 11:16:15.002 NotebookApp] Saving file at /Desktop/6th sem/Minor Project 6th sem/Untitled.ipynb
+[I 11:18:15.003 NotebookApp] Saving file at /Desktop/6th sem/Minor Project 6th sem/Untitled.ipynb
+[I 11:20:15.009 NotebookApp] Saving file at /Desktop/6th sem/Minor Project 6th sem/Untitled.ipynb
+2021-04-20 11:21:41.840907: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN)to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+[I 11:22:15.007 NotebookApp] Saving file at /Desktop/6th sem/Minor Project 6th sem/Untitled.ipynb
+[I 11:24:15.007 NotebookApp] Saving file at /Desktop/6th sem/Minor Project 6th sem/Untitled.ipynb
+[I 11:26:15.016 NotebookApp] Saving file at /Desktop/6th sem/Minor Project 6th sem/Untitled.ipynb
+[I 11:28:15.010 NotebookApp] Saving file at /Desktop/6th sem/Minor Project 6th sem/Untitled.ipynb
+[I 11:30:15.923 NotebookApp] Saving file at /Desktop/6th sem/Minor Project 6th sem/Untitled.ipynb
+[I 11:31:58.955 NotebookApp] Saving file at /Desktop/6th sem/Minor Project 6th sem/Untitled.ipynb
+[I 11:32:00.820 NotebookApp] Saving file at /Desktop/6th sem/Minor Project 6th sem/Untitled.ipynb
+[I 11:32:15.014 NotebookApp] Saving file at /Desktop/6th sem/Minor Project 6th sem/Untitled.ipynb
+[I 11:34:15.019 NotebookApp] Saving file at /Desktop/6th sem/Minor Project 6th sem/mask_detection 6th sem minor project.ipynb
+[I 11:36:15.008 NotebookApp] Saving file at /Desktop/6th sem/Minor Project 6th sem/mask_detection 6th sem minor project.ipynb
+[I 11:38:15.003 NotebookApp] Saving file at /Desktop/6th sem/Minor Project 6th sem/mask_detection 6th sem minor project.ipynb
+[I 11:41:17.458 NotebookApp] Saving file at /Desktop/6th sem/Minor Project 6th sem/mask_detection 6th sem minor project.ipynb
+[I 11:41:20.323 NotebookApp] Starting buffering for 8c0f1c33-53a9-49fd-baac-1c83186ee32f:e002681a4802476487c4feb322c8ae1a
+[W 11:41:24.214 NotebookApp] Notebook Desktop/6th sem/Minor Project 6th sem/mask_detection 6th sem minor project.ipynb is not trusted
+ Volume in drive C is Windows
+ Volume Serial Number is 66E1-15EC
+
+ Directory of C:\Users\KIIT\Desktop\6th sem\Minor Project 6th sem
+
+20-04-2021  11:41    <DIR>          .
+20-04-2021  11:41    <DIR>          ..
+20-04-2021  11:32    <DIR>          .ipynb_checkpoints
+20-04-2021  09:19            23,207 AI-MAJOR-DEC-AI-12-B8.ipynb
+18-04-2021  12:56            32,751 AI-MINOR-DEC.ipynb
+20-04-2021  11:18       110,080,128 data.npy
+18-04-2021  16:02        53,594,907 dataset-20210418T102952Z-001.zip
+20-04-2021  11:41            29,401 mask_detection 6th sem minor project.ipynb
+20-04-2021  11:18            11,136 target.npy
+               6 File(s)    163,771,530 bytes
+               3 Dir(s)  108,886,581,248 bytes free
+2021-04-20 11:41:59.349964: W tensorflow/core/framework/cpu_allocator_impl.cc:81] Allocation of 245862400 exceeds 10% of free system memory.
+2021-04-20 11:42:00.153939: W tensorflow/core/framework/cpu_allocator_impl.cc:81] Allocation of 245862400 exceeds 10% of free system memory.
+2021-04-20 11:42:00.525616: W tensorflow/core/framework/cpu_allocator_impl.cc:81] Allocation of 245862400 exceeds 10% of free system memory.
+2021-04-20 11:42:01.253594: W tensorflow/core/framework/cpu_allocator_impl.cc:81] Allocation of 245862400 exceeds 10% of free system memory.
+2021-04-20 11:42:01.669883: W tensorflow/core/framework/cpu_allocator_impl.cc:81] Allocation of 245862400 exceeds 10% of free system memory.
+2021-04-20 11:42:34.106372: W tensorflow/python/util/util.cc:348] Sets are not currently considered sequences, but this may change in the future, so consider avoiding using them.
+[I 11:43:24.659 NotebookApp] Saving file at /Desktop/6th sem/Minor Project 6th sem/mask_detection 6th sem minor project.ipynb
+[I 11:45:24.601 NotebookApp] Saving file at /Desktop/6th sem/Minor Project 6th sem/mask_detection 6th sem minor project.ipynb
+[I 11:47:24.567 NotebookApp] Saving file at /Desktop/6th sem/Minor Project 6th sem/mask_detection 6th sem minor project.ipynb
+[I 11:49:24.587 NotebookApp] Saving file at /Desktop/6th sem/Minor Project 6th sem/mask_detection 6th sem minor project.ipynb
+[I 11:51:24.587 NotebookApp] Saving file at /Desktop/6th sem/Minor Project 6th sem/mask_detection 6th sem minor project.ipynb
+[I 11:53:24.590 NotebookApp] Saving file at /Desktop/6th sem/Minor Project 6th sem/mask_detection 6th sem minor project.ipynb
+[I 11:55:24.548 NotebookApp] Saving file at /Desktop/6th sem/Minor Project 6th sem/mask_detection 6th sem minor project.ipynb
+[I 12:03:24.538 NotebookApp] Saving file at /Desktop/6th sem/Minor Project 6th sem/mask_detection 6th sem minor project.ipynb
+[I 12:05:24.541 NotebookApp] Saving file at /Desktop/6th sem/Minor Project 6th sem/mask_detection 6th sem minor project.ipynb
+[I 12:06:45.764 NotebookApp] Saving file at /Desktop/6th sem/Minor Project 6th sem/AI-MAJOR-DEC-AI-12-B8.ipynb
+[I 12:07:24.535 NotebookApp] Saving file at /Desktop/6th sem/Minor Project 6th sem/mask_detection 6th sem minor project.ipynb
+[I 12:09:24.923 NotebookApp] Saving file at /Desktop/6th sem/Minor Project 6th sem/mask_detection 6th sem minor project.ipynb
+[I 12:23:24.946 NotebookApp] Saving file at /Desktop/6th sem/Minor Project 6th sem/mask_detection 6th sem minor project.ipynb
+[I 12:57:24.546 NotebookApp] Saving file at /Desktop/6th sem/Minor Project 6th sem/mask_detection 6th sem minor project.ipynb
+[I 12:59:24.934 NotebookApp] Saving file at /Desktop/6th sem/Minor Project 6th sem/mask_detection 6th sem minor project.ipynb
+[I 13:01:24.546 NotebookApp] Saving file at /Desktop/6th sem/Minor Project 6th sem/mask_detection 6th sem minor project.ipynb
+[ WARN:1] global C:\Users\appveyor\AppData\Local\Temp\1\pip-req-build-kh7iq4w7\opencv\modules\videoio\src\cap_msmf.cpp (434) `anonymous-namespace'::SourceReaderCB::~SourceReaderCB terminating async callback
+[ WARN:2] global C:\Users\appveyor\AppData\Local\Temp\1\pip-req-build-kh7iq4w7\opencv\modules\videoio\src\cap_msmf.cpp (434) `anonymous-namespace'::SourceReaderCB::~SourceReaderCB terminating async callback
+[ WARN:0] global C:\Users\appveyor\AppData\Local\Temp\1\pip-req-build-kh7iq4w7\opencv\modules\videoio\src\cap_msmf.cpp (434) `anonymous-namespace'::SourceReaderCB::~SourceReaderCB terminating async callback
+[I 13:05:24.929 NotebookApp] Saving file at /Desktop/6th sem/Minor Project 6th sem/mask_detection 6th sem minor project.ipynb
+[ WARN:0] global C:\Users\appveyor\AppData\Local\Temp\1\pip-req-build-kh7iq4w7\opencv\modules\videoio\src\cap_msmf.cpp (434) `anonymous-namespace'::SourceReaderCB::~SourceReaderCB terminating async callback
+[I 13:09:24.920 NotebookApp] Saving file at /Desktop/6th sem/Minor Project 6th sem/mask_detection 6th sem minor project.ipynb
